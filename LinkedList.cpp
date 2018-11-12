@@ -17,7 +17,7 @@ public:
 		tail = NULL;
 	}
 
-	void push_first(int value) {
+	void append_first(int value) {
 		listNode *temp = new listNode;
 		temp->data = value;
 		temp->next = head;
@@ -40,7 +40,7 @@ public:
 		cout << value << " IS INSERTED TO " << pos << " INDEX" << endl;
 	}
 
-	void push(int value) {
+	void append(int value) {
 		listNode *temp = new listNode;
 		temp->next = NULL;
 		temp->data = value;
