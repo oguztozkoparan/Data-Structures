@@ -13,10 +13,10 @@ int main()
 
 	cout << "--LINKEDLIST--" << endl;
 	list.length();
-	list.push(4);
-	list.push(6);
+	list.append(4);
+	list.append(6);
 	list.display();
-	list.push_first(1);
+	list.append_first(1);
 	list.display();
 	list.insert_node(2, 10);
 	list.display();
